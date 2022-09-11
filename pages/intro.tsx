@@ -59,8 +59,8 @@ export const Intro: NextPage = () => {
         <Grid
           topLeft={<BrandMark />}
           topCenter={
-            <div className="flex h-full items-center text-mauve-12">
-              Streaming web development every weekday
+            <div className="flex h-full items-center text-mauve-12 text-3xl">
+              Nous allons bientôt commencer
             </div>
           }
           centerLeft={
@@ -70,9 +70,9 @@ export const Intro: NextPage = () => {
           }
           center={
             <div className="mt-[26px]">
-              <div className="text-5xl font-light text-mauve-12">
+              {/* <div className="text-5xl font-light text-mauve-12">
                 {stream?.current.title ?? stream?.next?.title}
-              </div>
+              </div> */}
               <div className="mt-6 text-4xl font-light text-mauve-11">
                 {stream?.current.start?.toLocaleDateString(undefined, {
                   weekday: "long",
@@ -178,9 +178,9 @@ const GuestTitleScreen: React.FC<{ stream?: UseStreamResponse }> = ({
           />
 
           <div className="absolute bottom-[20px] right-[788px] z-50 w-auto min-w-[150px] bg-mint px-4 py-2">
-            <div className="text-lg font-bold text-mauve-1">Adam Elmore</div>
+            <div className="text-lg font-bold text-mauve-1">Adrien KISSIE</div>
             <div className="text-sm font-medium text-[#040013] text-opacity-[48%]">
-              @aeduhm
+              @fredkiss
             </div>
           </div>
 

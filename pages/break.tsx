@@ -46,7 +46,7 @@ export const Break: NextPage = () => {
         center={
           <div className="mt-[26px]">
             <div className="text-5xl font-light text-mauve-12">
-              I&apos;ll be right back
+              De retour bientôt, Restez et mettez vous à l&rsquo;aise 🙃
             </div>
             <div className="mt-6 text-4xl font-light text-mauve-11">
               {stream?.current.title}

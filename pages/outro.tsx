@@ -29,12 +29,12 @@ export const Outro: NextPage = () => {
         topLeft={<BrandMark />}
         topCenter={
           <div className="flex h-full items-center text-mauve-12">
-            Streaming again soon, check the schedule for full details
+           On se retrouve au prochain stream
           </div>
         }
         centerLeft={
           <div className="mt-[26px] text-right text-5xl font-light text-mauve-11">
-            Soon
+            Fin du LIVE
           </div>
         }
         center={
